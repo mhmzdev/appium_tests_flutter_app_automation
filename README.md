@@ -1,6 +1,32 @@
 ## Appium Test
 This is a counter app for testing Appium with Flutter.
 
+### 📜 How to run
+1. Clone the repo
+```bash
+git clone https://github.com/mhmzdev/appium_tests_flutter_app_automation.git
+```
+2. Navigate to `appium_test` directory
+```bash
+cd appium_test
+```
+3. Install node dependencies
+```bash
+npm install
+```
+4. Run Appium Server
+```bash
+appium
+```
+5. Run the test
+```bash
+npx wdio run wdio.android.js
+```
+
+| Do not use `sudo` when running POINT 4 and POINT 5, it will cause an error!
+
+## Setup From Scratch
+This is how you can setup everything from scratch for your own project.
 ### 🎯 Setup Flutter
 1. Add `flutter_driver` in your pubspec.yaml
 ```yaml
